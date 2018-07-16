@@ -14,7 +14,7 @@
 I used the script from [this](https://github.com/gsssrao/youtube-8m-videos-frames) codebase to extract relevant videos from the YouTube-8m dataset. The categories I queried for indoor images were Room, Bedroom, Classroom, Office, Gym, Couch, Cooking, and Chair. The categories I queried for outdoor images were Beach, Landscape, Skyscraper, Mountain, Hiking, Skiing, Weather, and Thunderstorm. After obtaining these videos, I extracted 5 frames from each video to create a dataset of images.
 
 
-I used a pretrained VGG16 model, excluding the fully connected layers. Instead, I added fully connected layers of my own, and trained only those layers on the dataset that I had collected. Due to the lack of compute power on my local machine, I trained it only for 5 epochs. I was able to obtain a validation accuracy of 79.92%. 
+I used a pretrained VGG16 model, excluding the fully connected layers. Instead, I added fully connected layers of my own, and trained only those layers on the dataset that I had collected. Due to the lack of compute power on my local machine, I trained it only for 5 epochs. I was able to obtain a **validation accuracy** of **79.92%**. 
 
 
 I then created a command line tool called "mytool", which would take an image path as an argument, and would output whether the image was taken indoors or outdoors.

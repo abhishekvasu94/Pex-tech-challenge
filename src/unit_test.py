@@ -10,13 +10,15 @@ import h5py
 class utilsTest(unittest.TestCase):
 
 	#Test for the data processing part
-
+	#Commented it out because I was not able to upload the videos to Github
+	'''
 	def test_load_files(self):
 		#To check whether all the files are being loaded
 
 		path = os.path.join("..", "data", "indoor_videos", "")
 		ext = 'mp4'
 		self.assertTrue(len(procure_files(path, ext)) > 0)
+	'''
 
 	def test_images(self):
 		#To make sure that the images are not of NoneType

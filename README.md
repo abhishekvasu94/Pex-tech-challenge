@@ -28,24 +28,24 @@ I then created a command line tool called "mytool", which would take an image pa
 4. cd into this repository
 5. Create a virtual environment
 6. Run <code>pip install -r requirements.txt</code>
-7. Run 'python setup.py'
-8. Run 'mytool --img img\_name' where img\_name is the path to an image of your choice
+7. Run <code>python setup.py</code>
+8. Run <code>mytool --img img\_name</code> where <code>img\_name</code> is the path to an image of your choice
 
 
 ## Important notes
 
 #### The main source code is contained in the 'src' directory
 
-'utils.py' was used to create the dataset. It was run as 'python utils.py indoor' or 'python utils.py outdoor' depending upon the data I was creating.
+<code>utils.py</code> was used to create the dataset. It was run as <code>python utils.py indoor</code> or <code>python utils.py outdoor</code> depending upon the data I was creating.
 
-'model.py' contains the code for training the deep learning model. It took no other arguments, and simply ran with 'python model.py'
+<code>model.py</code> contains the code for training the deep learning model. It took no other arguments, and simply ran with 'python model.py'
 
-'unit\_test.py' contains a few test units that I wrote
+<code>unit\_test.py</code> contains a few test units that I wrote
 
 
 #### All the data related content is contained in the 'data' directory
 
-It contains a directory titled 'photos', which contains the dataset I created.
+It contains a directory titled <code>photos</code>, which contains the dataset I created.
 
 It was in this folder that I had two other folders, each containing the indoor and outdoor videos respectively. Due to the size of the videos, I did not upload them onto github.
 

@@ -27,7 +27,7 @@ I then created a command line tool called "mytool", which would take an image pa
 3. Clone this repository
 4. cd into this repository
 5. Create a virtual environment
-6. Run 'pip install -r requirements.txt'
+6. Run <code>pip install -r requirements.txt</code>
 7. Run 'python setup.py'
 8. Run 'mytool --img img\_name' where img\_name is the path to an image of your choice
 
